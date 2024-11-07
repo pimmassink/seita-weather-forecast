@@ -43,4 +43,4 @@ I wanted to just query the db in pycharm. I've added it as a datasource, but it 
 OK it is now 18:23. Time for a break. I am not sure if I will continue this tonight. I think I will slowly go crazy. I'll take another ten minutes to push this to github and send a message to Felix. Then he can look at my progress live. I guess it makes sense to at least show some kind of design during the interview tomorrow. 
 Man a homework assignment of 4 hours is very demanding. I find it hard to find the time and focus next to a 45 hour job and all the other applications. I wish I was back at university with endless amounts of time...
 
-
+Wheew. it is now 23 minutes later, 18:46 and I am exhausted. I created a github repository but had problems with access right because this is a work laptop. Messing around with SSH keys takes its toll. More tomorrow!
