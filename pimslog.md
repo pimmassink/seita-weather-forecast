@@ -31,3 +31,5 @@ The first thing I'll do is actually create the two endpoints. Then we know exact
 Personally, I come from a Java Spring background. So I am a big fan of the controller/service/persistence structure. An alternative would be more domain driven design. Also very interesting. I accept criticism that my approach isn't very "Python-y" or maybe very "Java-y". Sure. I would love to take the time and do research on how to set it up the "python way" but I don't have that. This would be a great conversation to have.
 
 I've created a forecasts controller. ACtually I am a little confused. The requirements specified there should be a GET endpoiont for `/tomorrow`. But what would be the base path? Is "tomorrow" a domain? Maybe it is. There can be many customers that want to know things about tomorrow. For now I'll create a tomorrowController, weird as it feals. Because isn't tomorrow just another forecast?
+
+

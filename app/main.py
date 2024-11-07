@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 
-from app.controllers import forecastsController, tomorrowController
+
+from app.controllers.tomorrowController import tomorrowController
+from app.controllers.forecastsController import forecastsController
 
 app = FastAPI()
 
