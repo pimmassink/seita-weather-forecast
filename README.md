@@ -1,0 +1,1 @@
+Read the pimslog.md for a stream-of-consciousness log of the development of this project.
