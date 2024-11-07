@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "f50617a7-2c1f-4d66-bf17-a73af2c0e60d",
+		"name": "Weather-Forecasts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28190471"
+	},
+	"item": [
+		{
+			"name": "tomorrow",
+			"item": [
+				{
+					"name": "Get tomorrow",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/tomorrow?now=2023-10-01T12:00:00",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"tomorrow"
+							],
+							"query": [
+								{
+									"key": "now",
+									"value": "2023-10-01T12:00:00"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "forecasts",
+			"item": [
+				{
+					"name": "Get forecast",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/forecasts?now=2023-10-01T12:00:00&then=2023-10-01T12:00:00",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"forecasts"
+							],
+							"query": [
+								{
+									"key": "now",
+									"value": "2023-10-01T12:00:00"
+								},
+								{
+									"key": "then",
+									"value": "2023-10-01T12:00:00"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
